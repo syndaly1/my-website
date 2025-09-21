@@ -1,0 +1,143 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: honeydew ;
+    background-color: rgb(253, 253, 253);
+    margin: 0;
+    padding: 0;
+}
+
+h1.main {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    background-color: forestgreen;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 22px;
+    background-color: darkgreen;
+    padding: 6px;
+}
+
+h3 {
+    font-size: 18px;
+    color: midnightblue;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+ol li, ul li {
+    background-color: lightslategrey;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+a {
+    color: hotpink;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 15px auto;
+    width: 80%;
+    background-color: lightslategray;
+}
+
+th, td {
+    border: 1px solid;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: hotpink;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hotpink;
+}
+
+
+ul li a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: midnightblue;
+    color: white;
+    border-radius: 4px;
+}
+
+ul li a:hover {
+    background-color: hotpink;
+}
+
+
+img {
+    display: block;
+    margin: 10px auto;
+    border: 2px solid;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    max-width: 200px;
+}
+
+
+form {
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 6px;
+    width: 300px;
+}
+
+input[type="text"], input[type="email"], input[type="color"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: hotpink;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: hotpink;
+}
+
+
+button, input[type="submit"] {
+    transition: background-color 0.3s ease;
+}
+
+
+a:focus, button:focus, input:focus {
+    outline: 3px solid orange;
+    outline-offset: 2px;
+}
+
